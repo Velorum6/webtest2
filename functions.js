@@ -1,7 +1,7 @@
-const image_input = document.querySelector("image_input");
+const image_input = document.querySelector("#image_input");
 var uploaded_image = "";
 
-image_input.addEventListener("click", function(){
+image_input.addEventListener("change", function(){
     console.log("hello")
     const reader = newFileReader();
     reader.addEventListener("load", () => {
