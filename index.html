@@ -2,10 +2,19 @@
     <head>
         <title> Change your pfp!</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
     <body>
         <section class="header">
-            <input type="file" id="image_input" accept="image/png, image/jpg" class="submitImage">
+            <input type="file" id="image_input" accept="image/*">
+            <label for="image_input">
+                <span class="material-icons">
+                    add_photo_alternate
+                </span> &nbsp; 
+                Load Image
+            </label>
+            <div class="border"></div>
             <div id="display_image"></div>
             <script src="functions.js"></script>
         </section>

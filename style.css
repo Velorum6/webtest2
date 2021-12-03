@@ -10,13 +10,21 @@ body{
     flex-direction: column;
     height: 100vh;
 }
-#display_image{
-    position: relative;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
+.border{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
     border: 2px solid black;
+    border-radius: 60px;
+}
+#display_image{
+    position: absolute;
+    top: 29.52%;
+    left: 39.58%;
+    width: 400px;
+    height: 400px;
     background-position: center center;
     background-size: cover;
 }
@@ -30,7 +38,25 @@ body{
     text-align: center;
     align-items: center;
 }
-.submitImage{
-    position: relative;
-    top: 10%;
+input[type="file"]{
+    display: none;
+}
+label{
+    color:white;
+    position: absolute;
+    margin: auto;
+    cursor: pointer;
+    top:0;
+    bottom: 85%;
+    left:0;
+    right:0;
+    height:60px;
+    width: 250px;
+    background-color: rgb(0,0,0,0.8);
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid black;
 }
