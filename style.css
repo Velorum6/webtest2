@@ -12,21 +12,22 @@ body{
 }
 .border{
     position: absolute;
-    top: 15%;
-    left: 15%;
-    width: 70%;
-    height: 70%;
-    border: 2px solid black;
-    border-radius: 60px;
+    top: 26.97%;
+    left: 38.26%;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 100%;
 }
 #display_image{
-    position: absolute;
+    position: relative;
     top: 29.52%;
-    left: 39.58%;
+    left: 39.57%;
     width: 400px;
     height: 400px;
     background-position: center center;
     background-size: cover;
+    border-radius: 100%;
 }
 .header{
     min-height: 100vh;
