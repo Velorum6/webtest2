@@ -8,8 +8,6 @@ body{
     align-items: center;
     gap: 10px;
     flex-direction: column;
-    background-position: center center;
-    background-size: cover;
     height: 100vh;
 }
 .border{
@@ -22,11 +20,13 @@ body{
     border-radius: 100%;
 }
 #display_image{
-    position: relative;
+    position: absolute;
     top: 29.52%;
     left: 39.57%;
     width: 400px;
     height: 400px;
+    background-position: center center;
+    background-size: cover;
     border-radius: 100%;
 }
 .header{
